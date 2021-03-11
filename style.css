@@ -1,0 +1,139 @@
+.border-topimg {
+     border: solid 1px gray;
+     max-width: 800px;
+     background-color: white;
+}
+.font-size {
+     font-size: 30px;
+}
+.clip {
+     display: inline-block;
+     clip-path: circle(100% at 50% -50%);
+}
+.text-brown { 
+     color: peru;
+}
+.text-gray {
+     color: gray;
+}
+.text-green {
+     color: green;
+}
+.bg-img-color {
+     /* 透過した黒を上から重ねるイメージ */
+     background-color: rgba(0,0,0,0.3);
+}
+.btn-start {
+     background-color: peru;
+     border: solid 1px peru;
+     padding: 20px 100px;
+     border-radius: 10px;
+}
+.position-online-marriage {
+     position: relative;
+     top: -300px;
+}
+.balloon1-left {
+  position: relative;
+  width: 900px;
+  margin: 1.5em 0 1.5em 15px;
+  padding: 20px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #e0edff;
+}
+
+.balloon1-left:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-right: 15px solid #e0edff;
+}
+
+.balloon1-left p {
+  margin: 0;
+  padding: 0;
+}
+.balloon1-right {
+  position: relative;
+  width: 900px;
+  margin: 1.5em 15px 1.5em 0;
+  padding: 20px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: #e0edff;
+}
+
+.balloon1-right:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -15px;
+  border: 15px solid transparent;
+  border-left: 15px solid #e0edff;
+}
+
+.balloon1-right p {
+  margin: 0;
+  padding: 0;
+}
+.position-absolute {
+   position: absolute;
+   left: 350px;
+}
+.position-bride {
+  position: relative;
+  top: -500px;
+  left: 100px;
+}
+.bg-white {
+    box-sizing: border-box;
+    padding: 32px 40px 14px;
+}
+.bg-begie {
+     background-color: blanchedalmond;
+     box-sizing: border-box;
+     margin: 10px 0;
+     padding: 30px 70px;
+}
+.border-icon {
+  border: solid 1px peru;
+  background-color: peru;
+}
+.box {
+    box-sizing: border-box;
+    padding: 32px 40px 14px;
+}
+.img-area {
+    margin: 22px auto;
+}
+.font-style {
+  font-family: "ヒラギノ明朝 Pro W5", "Hiragino Mincho Pro", serif;
+}
+.nav-btn {
+    max-width: 100%; 
+    text-align: center;
+    padding: 30px 0 60px;
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+}
+.border-gray {
+    border: 8px solid #eaeaea;
+}
+.border-brown {
+    border: 8px solid peru; 
+}
+.font-phone {
+    font-size: 60px;
+    margin: 0 0 12px;
+    line-height: 1.3;
+}
